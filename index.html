@@ -4,21 +4,29 @@
 <html>
 	<head>
 		<title>Parallax Scrolling WEB</title>
-		<meta charset="utf-8" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<link rel="stylesheet" href="css/main.css" />
 	</head>
   <body>
 		<!--Intro-->
 		<section id="intro">
-			<div class="nav">
-			</div>
+					<button id="button1"></button>
+					<div id="nav">
+						<button id="button2"></button>
+						<p id="menu1"></p>
+						<p id="menu2"></p>
+						<p id="menu3"></p>
+					</div>
 		</section>
 		<!-- Page 02 -->
-		<div id="page02" class="ch_gif">
+		<div id="page02">
+			<div id="page02-1"></div>
 			<p id="base01"></p>
+			</div>
 		</div>
 		<!-- Page 03 -->
-		<div id="page03" class="ch_gif">
+		<div id="page03">
 			<p id="base02"></p>
 		</div>
 		<!-- Page 04 -->
@@ -42,8 +50,8 @@
 		<!-- Page 10 -->
 		<div id="page10">
 		</div>
-
 		<!-- Scripts -->
 			<script src="js/main.js"></script>
+			<script src="js/event.js"></script>
   </body>
   </html>

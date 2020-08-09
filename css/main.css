@@ -6,7 +6,7 @@ html, body{
   margin: 0;
   padding: 0;
   border: 0;
-  width: 1920px;
+  width: 100%;
   height: 1080px;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,15 +19,78 @@ section,p,div {
   height :100%;
 }
 
+button{
+  outline : none;
+  border: 0;
+  background-color: transparent;
+}
 /* intro */
  #intro {
   background-image : url("images/intro.png");
  }
-
+ #nav {
+  background-image : url("images/MENU 01.png");
+  width: 690px;
+  height: 690px;
+  margin-left: 1213px;
+  margin-right: 0;
+  background-repeat: no-repeat;
+  padding: 0,0,0,0;
+  position: absolute;
+ }
+ #button1{
+   background-repeat: no-repeat;
+   margin-left: 1845px;
+   margin-top: 50px;
+   width: 40px;
+   height: 40px;
+   position: absolute;
+ }
+ #button2{
+   background-image : url("images/MENU 02 .png");
+   background-repeat: no-repeat;
+   margin-left: 612px;
+   margin-top: 48px;
+   width: 34px;
+   height: 34px;
+   position: absolute;
+ }
+ #menu1{
+   background-image : url("images/MENU 03.png");
+   background-repeat: no-repeat;
+   margin-top: 149px;
+   margin-left: 564px;
+   width: 82px;
+   height: 23px;
+   position: absolute;
+ }
+ #menu2{
+   background-image : url("images/MENU 04.png");
+   background-repeat: no-repeat;
+   margin-top: 239px;
+   margin-left: 556px;
+   width: 86px;
+   height: 25px;
+   position: absolute;
+ }
+ #menu3{
+   background-image : url("images/MENU 05.png");
+   background-repeat: no-repeat;
+   margin-top: 331px;
+   margin-left: 498px;
+   width: 148px;
+   height: 24px;
+   position: absolute;
+ }
  /* Page 02*/
  #page02{
    background-image : url("images/PAGE 02.png");
    height :648px;
+ }
+ #page02-1{
+   background-image : url("images/PAGE 02-1.gif");
+   height :648px;
+   position: absolute;
  }
  #base01 {
    background-image : url("images/PAGE 02-1.png");
