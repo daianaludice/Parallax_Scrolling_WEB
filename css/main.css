@@ -1,0 +1,80 @@
+
+/* Copyright 2020. Soyoung LEE all rights reserved.
+     Email : daianaludice@naver.com */
+
+html, body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 1920px;
+  height: 1080px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+section,p,div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  height :100%;
+}
+
+/* intro */
+ #intro {
+  background-image : url("images/intro.png");
+ }
+
+ /* Page 02*/
+ #page02{
+   background-image : url("images/PAGE 02.png");
+   height :648px;
+ }
+ #base01 {
+   background-image : url("images/PAGE 02-1.png");
+   height :648px;
+ }
+
+ /* Page 03 */
+ #page03{
+   background-color: #BCBCBC;
+   height :648px;
+ }
+ #base02 {
+   background-image : url("images/PAGE 03-1.png");
+   height :648px;
+ }
+
+  /* Page 04 */
+  #page04{
+    background-image : url("images/PAGE 04.png");
+  }
+
+  /* Page 05 */
+  #page05{
+    background-image : url("images/PAGE 05.png");
+    height :634px;
+  }
+
+  /* Page 06 */
+  #page06{
+    background-image : url("images/PAGE 06.png");
+  }
+
+  /* Page 07 */
+  #page07{
+    background-image : url("images/PAGE 07.gif");
+  }
+
+  /* Page 08 */
+  #page08{
+    background-image : url("images/PAGE 08.jpg");
+  }
+  /* Page 09 */
+  #page09{
+    background-image : url("images/PAGE 09.jpg");
+  }
+  /* Page 10 */
+  #page10{
+    background-image : url("images/PAGE 10.jpg");
+    height :634px;
+  }
