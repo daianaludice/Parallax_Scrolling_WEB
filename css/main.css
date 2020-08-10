@@ -7,7 +7,7 @@ html, body{
   padding: 0;
   border: 0;
   width: 100%;
-  height: 1080px;
+  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -27,6 +27,14 @@ button{
 /* intro */
  #intro {
   background-image : url("images/intro.png");
+ }
+ #open_gif {
+  background-image : url("images/PAGE 01-2.gif");
+  background-repeat: no-repeat;
+  width: 49.55%;
+  height: 1080px;
+  margin-left: 960px;
+  position: absolute;
  }
  #nav {
   background-image : url("images/MENU 01.png");
@@ -82,6 +90,7 @@ button{
    height: 24px;
    position: absolute;
  }
+
  /* Page 02*/
  #page02{
    background-image : url("images/PAGE 02.png");
@@ -102,9 +111,17 @@ button{
    background-color: #BCBCBC;
    height :648px;
  }
+ #page03-1{
+   background-image : url("images/PAGE 02-1.gif");
+   height :648px;
+   position: absolute;
+   z-index: 1;
+ }
  #base02 {
    background-image : url("images/PAGE 03-1.png");
    height :648px;
+   position: absolute;
+   z-index: 2;
  }
 
   /* Page 04 */
@@ -116,6 +133,9 @@ button{
   #page05{
     background-image : url("images/PAGE 05.png");
     height :634px;
+    max-width: 1920px;
+    position : relative;
+    overflow: hidden;
   }
 
   /* Page 06 */
