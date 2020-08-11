@@ -161,3 +161,47 @@ button{
     background-image : url("images/PAGE 10.jpg");
     height :634px;
   }
+  /* Page 11 */
+  #page11{
+    background-color :white;
+    height :266px;
+  }
+  /* Page 12 */
+  #page12{
+    background-color :black;
+    height :1800px;
+    position: absolute;
+
+  }
+  /* Page 12 */
+  #page13{
+    background-color :red;
+    height :900px;
+  }
+
+#test1{
+  background-image : url("images/PAGE 10.jpg");
+  width:44px;
+  height :44px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 50px;
+}
+
+#test2{
+  background-image : url("images/PAGE 09.jpg");
+  width:44px;
+  height :44px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 150px;
+}
+
+#test3{
+  background-image : url("images/PAGE 08.jpg");
+  width:44px;
+  height :44px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 200px;
+}

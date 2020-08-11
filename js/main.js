@@ -57,3 +57,8 @@ $('#page03-1').hide();
  $('#icon4').mouseleave(function(){
       $(this).animate({width: '70px' , marginLeft: '1582px' , marginTop: '351px'}, 500);
  });
+
+  /* Page 12*/
+  $('#page12').hide();
+  $('#test2').fadeOut();
+  $('#test3').fadeOut();

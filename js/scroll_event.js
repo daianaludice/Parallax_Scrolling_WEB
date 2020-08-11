@@ -31,3 +31,58 @@ $(window).scroll(function(){
      $('#page03-1').hide(150);
    }
  })
+
+
+ /* Page 10,12*/
+
+
+ $(window).scroll(function(){
+   var wd = $(this).scrollTop();
+   if(wd >= 7630){
+     $('#page12').show();
+     $('#page12').animate({marginTop: '3875px'});
+   }
+ })
+
+ $(window).scroll(function(){
+   var wd = $(this).scrollTop();
+   if(wd >= 8030){
+     $('#test2').fadeIn(500);
+
+   }
+ })
+
+ $(window).scroll(function(){
+   var wd = $(this).scrollTop();
+   if(wd <= 8030){
+     $('#test2').fadeOut(500);
+
+   }
+ })
+
+ $(window).scroll(function(){
+   var wd = $(this).scrollTop();
+   if(wd >= 8430){
+     $('#test3').fadeIn(500);
+
+   }
+ })
+
+ $(window).scroll(function(){
+   var wd = $(this).scrollTop();
+   if(wd <= 8430){
+     $('#test3').fadeOut(500);
+
+   }
+ })
+
+
+
+/*$("#page12").on('mousewheel',function(e){
+    var wheel = e.originalEvent.wheelDelta;
+    //스크롤값을 가져온다.
+    if(wheel>-100){
+      //스크롤 올릴때
+      $('#page12').animate({marginTop: '0px'});
+    }
+});*/
