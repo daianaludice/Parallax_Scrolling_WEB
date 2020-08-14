@@ -6,6 +6,7 @@
 		<title>Parallax Scrolling WEB</title>
 		<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script src="https://smtpjs.com/v3/smtp.js"></script>
 		<link rel="stylesheet" href="css/main.css" />
 	</head>
   <body>
@@ -41,11 +42,11 @@
 			<img src="css/images/ICON 03.png" alt="icon03" id="icon3" style="width:44px;margin-left: 1023px;margin-top: 351px; position:absolute;"></img>
 			<img src="css/images/ICON 04.png" alt="icon04" id="icon4" style="width:70px;margin-left: 1582px;margin-top: 351px; position:absolute;"></img>
 		</div>
-		<!-- Page 12 -->
-		<div id="page12">
-			<div id="test1"></div>
-			<div id="test2"></div>
-			<div id="test3"></div>
+		<!-- Page 11 -->
+		<div id="page11">
+			<div id="show1"></div>
+			<div id="show2"></div>
+			<div id="show3"></div>
 		</div>
 		<!-- Page 06 -->
 		<div id="page06">
@@ -62,13 +63,42 @@
 		<!-- Page 10 -->
 		<div id="page10">
 		</div>
-		<!-- Page 11 -->
-		<div id="page11">
+		<!-- Page full -->
+		<div id="page_full">
+		</div>
+		<!-- Page 12 -->
+		<div id="page12">
 		</div>
 		<!-- Page 13 -->
 		<div id="page13">
+			<div id="page13-2"></div>
+		</div>
+		<!-- Page 13 -->
+		<div id="page14">
+			<div id="page14-2"></div>
+			<div id="box1" style="height: 360px;">
+				<input type="text" name="send_content" id="send_text" style="background-color:transparent; width:1150px; height:300px; margin-left: 80px; margin-top: 30px; border:0;"></input>
+			</div>
+			<img src="css/images/SEND.png" alt="icon" id="send" style="width:112px;margin-left: 1619px;margin-top: 801px;position:absolute;"></img>
+			</div>
 		</div>
 		<!-- Scripts -->
+		<script type="text/javascript">
+		$('#send').click(function(){
+			$('#page14-2').fadeIn();
+			$('#send_text').val('전송되었습니다.');
+		  var msg =document.getElementById("#send_text").value;
+		   Email.send("dlthdud15@naver.com",//보내는 이메일 계정
+							"dlthdud15@naver.com",//받는 이메일 계정
+							"hello",
+							"새 메세지",
+							"smtp.naver.com",//네이버 smtp
+							"dlthdud15",//네이버 아이디
+							"yewhalee0118");
+
+		});
+
+		</script>
 			<script src="js/main.js"></script>
 			<script src="js/scroll_event.js"></script>
   </body>

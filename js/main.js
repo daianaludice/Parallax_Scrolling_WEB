@@ -58,7 +58,13 @@ $('#page03-1').hide();
       $(this).animate({width: '70px' , marginLeft: '1582px' , marginTop: '351px'}, 500);
  });
 
-  /* Page 12*/
-  $('#page12').hide();
-  $('#test2').fadeOut();
-  $('#test3').fadeOut();
+  /* Page 11*/
+  $('#page11').hide();
+  $('#show2').fadeOut();
+  $('#show3').fadeOut();
+
+  /* Page 14*/
+  $('#page14-2').fadeOut();
+  $('#send').click(function(){
+          $('#page14-2').fadeIn();
+  });
