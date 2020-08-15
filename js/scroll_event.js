@@ -18,10 +18,16 @@ $(window).scroll(function(){
 })
 
  /* Page 03 */
+
+ function hide_gif(){
+   $('#page03-1').fadeOut("fast");
+ }
+
  $(window).scroll(function(){
    var wd = $(this).scrollTop();
-   if(wd >= 1400){
+   if((wd >= 1400)&&(wd <=1415)){
      $('#page03-1').show(100);
+     window.setTimeout(hide_gif, 1700);
    }
  })
 
