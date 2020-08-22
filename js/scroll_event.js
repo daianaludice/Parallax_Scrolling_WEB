@@ -38,21 +38,62 @@ $(window).scroll(function(){
    }
  })
 
-
- /* Page 10,11*/
-
-
+ /* Page 06 */
  $(window).scroll(function(){
    var wd = $(this).scrollTop();
-   if(wd >= 7630){
-     $('#page11').show();
-     $('#page11').animate({marginTop: '3875px'});
+   if(wd >= 4400){
+     $('#graph1').hide();
+     $('#graph2').hide();
+     $('#graph5').hide();
+     $('#graph3').hide();
+
    }
  })
 
  $(window).scroll(function(){
    var wd = $(this).scrollTop();
-   if(wd >= 7930){
+   if(wd <= 4400){
+     $('#graph1').show();
+     $('#graph2').show();
+     $('#graph5').show();
+     $('#graph3').show();
+
+   }
+ })
+
+ $(window).scroll(function(){
+   var wd = $(this).scrollTop();
+   if(wd >= 4900){
+      $('#page06-4').show();
+     $('#graph4').css('background-image','url("css/images/GRAPH 06.jpg")');
+
+   }
+ })
+
+ $(window).scroll(function(){
+   var wd = $(this).scrollTop();
+   if(wd <= 4900){
+      $('#page06-4').hide();
+     $('#graph4').css('background-image','url("css/images/GRAPH 04.jpg")');
+
+   }
+ })
+ /* Page 10,11*/
+
+
+ $(window).scroll(function(){
+   var wd = $(this).scrollTop();
+   if(wd >= 9400){
+     $('#page11').show();
+     $('#page11').animate({marginTop: '1850px'});
+   }
+ })
+
+
+
+ $(window).scroll(function(){
+   var wd = $(this).scrollTop();
+   if(wd >= 9650){
      $('#show2').fadeIn(500);
 
    }
@@ -60,7 +101,7 @@ $(window).scroll(function(){
 
  $(window).scroll(function(){
    var wd = $(this).scrollTop();
-   if(wd <= 7930){
+   if(wd <= 9650){
      $('#show2').fadeOut(500);
 
    }
@@ -68,7 +109,7 @@ $(window).scroll(function(){
 
  $(window).scroll(function(){
    var wd = $(this).scrollTop();
-   if(wd >= 8230){
+   if(wd >= 9900){
      $('#show3').fadeIn(500);
 
    }
@@ -76,15 +117,15 @@ $(window).scroll(function(){
 
  $(window).scroll(function(){
    var wd = $(this).scrollTop();
-   if(wd <= 8230){
+   if(wd <= 9900){
      $('#show3').fadeOut(500);
 
    }
  })
-
+/*
  $(window).scroll(function(){
    var wd = $(this).scrollTop();
-   if(wd >= 8630){
+   if(wd >= 10000){
      $('#show2').css({ position : 'absolute', marginTop: '900px'});
      $('#show3').css({ position : 'absolute', marginTop: '900px'});
    }
@@ -92,13 +133,12 @@ $(window).scroll(function(){
 
  $(window).scroll(function(){
    var wd = $(this).scrollTop();
-   if(wd <= 8630){
+   if(wd <= 10000){
      $('#show2').css({ position : 'fixed', marginTop: '0px'});
      $('#show3').css({ position : 'fixed', marginTop: '0px'});
 
    }
  })
-
 
 /*$("#page12").on('mousewheel',function(e){
     var wheel = e.originalEvent.wheelDelta;
