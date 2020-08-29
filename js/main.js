@@ -59,6 +59,7 @@ $('#page03-1').hide();
  });
 
  /* Page 6*/
+$('#page06-3').hide();
  $('#page06-4').hide();
 
  $('#graph1').mouseenter(function(){
@@ -103,6 +104,7 @@ $('#page03-1').hide();
 
 
  /* Page 8*/
+$('#page08-1').hide();
  $('#graph7').mouseenter(function(){
       $(this).css('background-image','url("css/images/GRAPH 07-2.jpg")');
  });
@@ -112,7 +114,7 @@ $('#page03-1').hide();
 
 
  /* Page 9*/
-
+$('#page09').hide();
  $('#graph8').mouseenter(function(){
       $(this).css('background-image','url("css/images/GRAPH 08-2.jpg")');
  });

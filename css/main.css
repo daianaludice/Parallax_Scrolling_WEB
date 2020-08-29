@@ -161,17 +161,26 @@ button{
     position: absolute;
   }
   #page06-3{
-    background-image : url("images/PAGE 06-3.jpg");
+    background-image : url("images/PAGE 06-3.gif");
     background-repeat: no-repeat;
     height :1080px;
     width: 920px;
     margin-left: 960px;
+    position :absolute;
   }
   #page06-4{
     background-image : url("images/PAGE 06-4.png");
     background-repeat: no-repeat;
     height: 100%;
     position: absolute;
+  }
+  #page06-5{
+    background-image : url("images/PAGE 06-3.png");
+    background-repeat: no-repeat;
+    height :1080px;
+    width: 920px;
+    margin-left: 960px;
+    position :absolute;
   }
   #graph1{
     background-image : url("images/GRAPH 01.jpg");
@@ -230,7 +239,19 @@ button{
 
   /* Page 08 */
   #page08{
+    background-image : url("images/PAGE 08-1.png");
+    background-repeat: no-repeat;
+        position: absolute;
+  }
+  #page08-1{
+    background-image : url("images/PAGE 08-1.gif");
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+  #page08-2{
     background-image : url("images/PAGE 08.jpg");
+    background-repeat: no-repeat;
+
   }
   #graph7{
     background-image : url("images/GRAPH 07.jpg");
@@ -242,8 +263,25 @@ button{
     position: absolute;
   }
   /* Page 09 */
+  #page9{
+    background-color: green;
+    height: 100%;
+  }
   #page09{
+    background-image : url("images/PAGE 09-2.gif");
+    background-repeat: no-repeat;
+    position: absolute;
+
+  }
+  #page09-1{
+    background-image : url("images/PAGE 09-3.png");
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+   #page09-2{
     background-image : url("images/PAGE 09.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
   }
 
   #graph8{
@@ -291,6 +329,7 @@ button{
     position: -webkit-sticky;
     position: sticky;
     top: 0px;
+    z-index: 2;
   }
 
   #show2{

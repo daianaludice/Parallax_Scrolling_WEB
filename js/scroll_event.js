@@ -39,6 +39,16 @@ $(window).scroll(function(){
  })
 
  /* Page 06 */
+
+ $(window).scroll(function(){
+   var wd = $(this).scrollTop();
+   if(wd >= 3900){
+     $('#page06-3').show();
+
+   }
+ })
+
+
  $(window).scroll(function(){
    var wd = $(this).scrollTop();
    if(wd >= 4400){
@@ -78,6 +88,27 @@ $(window).scroll(function(){
 
    }
  })
+
+ /* Page 08 */
+
+ $(window).scroll(function(){
+   var wd = $(this).scrollTop();
+   if(wd >= 7400){
+     $('#page08-1').show();
+
+   }
+ })
+
+ /* Page 09 */
+
+ $(window).scroll(function(){
+   var wd = $(this).scrollTop();
+   if(wd >= 8350){
+     $('#page09').show();
+
+   }
+ })
+
  /* Page 10,11*/
 
 
