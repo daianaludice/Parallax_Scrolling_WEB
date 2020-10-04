@@ -25,18 +25,19 @@ $(window).scroll(function(){
 
  $(window).scroll(function(){
    var wd = $(this).scrollTop();
-   if((wd >= 1400)&&(wd <=1415)){
+     if(wd >= 1400){
+   //if((wd >= 1400)&&(wd <=1415)){
      $('#page03-1').show(100);
-     window.setTimeout(hide_gif, 1700);
+     //window.setTimeout(hide_gif, 1700);
    }
  })
 
- $(window).scroll(function(){
+ /*$(window).scroll(function(){
    var wd = $(this).scrollTop();
    if(wd <= 1300){
      $('#page03-1').hide(150);
    }
- })
+ })*/
 
  /* Page 06 */
 
@@ -142,6 +143,12 @@ $(window).scroll(function(){
    var wd = $(this).scrollTop();
    if(wd >= 9900){
      $('#show3').fadeIn(500);
+     //setTimeout(function() {
+     //$('#show3').css('background-image','url("css/images/PAGE 11-3-2(BRAVE).png")');
+    // }, 700);
+
+
+
 
    }
  })

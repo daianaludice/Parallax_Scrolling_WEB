@@ -7,16 +7,24 @@
 		<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
 <script type="text/javascript">
    (function(){
       emailjs.init("user_7g2ZM3cRR0bZYBs0MBNwE");
    })();
+
+
 </script>
 		<link rel="stylesheet" href="css/main.css" />
 	</head>
   <body>
 		<!--Intro-->
 		<section id="intro">
+			    <div id="open"></div>
+
 					<button id="button1"></button>
 					<div id="nav">
 						<button id="button2"></button>
@@ -24,7 +32,10 @@
 						<p id="menu2"></p>
 						<p id="menu3"></p>
 					</div>
+					<button id="button3"></button>
 					<div id="open_gif"></div>
+
+
 		</section>
 		<!-- Page 02 -->
 		<div id="page02">
@@ -111,14 +122,22 @@
 		<!-- Page 14 -->
 		<div id="page14">
 			<div id="page14-2"></div>
-			<div id="box1" style="height: 360px;">
-				<input type="text" name="send_content" id="send_text" style="background-color:transparent; width:1150px; height:300px; margin-left: 80px; margin-top: 30px; border:0;"></input>
+			<div id="box1" style="height: 375px;">
+				<input type="text" name="send_content" id="send_text" style="background-color:transparent; width:1150px; height:300px; margin-left: 80px; margin-top: 30px; border:0; text-align: center;"></input>
 			</div>
-			<img src="css/images/SEND.png" alt="icon" id="send" style="width:112px;margin-left: 1619px;margin-top: 801px;position:absolute;"></img>
+      <img src="css/images/SEND.png" alt="icon" class="sends" id="send" style="width:112px;margin-left: 1636px;margin-top: 818px;position:absolute;"></img>
 			</div>
 		</div>
 		<!-- footer -->
 		<div id="page15" style="height: 450px;">
+			<a href="index.html"><div id="logo2"></div></a>
+			<a href="#page04"><div id="footer01"></div></a>
+			<a href="#page15"><div id="footer02"></div></a>
+			<a href="#page_full"><div id="footer03"></div></a>
+			<a href="#page14"><div id="footer04"></div></a>
+			<a href="https://sujeongkr.com/"><div id="sujeong"></div></a>
+			<a href="https://www.behance.net/werqrs200aaee"><div id="yeonkyeong"></div></a>
+			<a href="https://github.com/daianaludice"><div id="soyoung"></div></a>
 		</div>
 		<!-- Scripts -->
 		<script type="text/javascript">
@@ -129,9 +148,9 @@
 				contents
 			}
 			$('#page14-2').fadeIn();
-			$('#send_text').val('전송되었습니다').css('text-align','center');
-      emailjs.init("user_id");
-			emailjs.send("server_name","template_id",Email_Contents)
+			$('#send_text').val(' ').css('text-align','center');
+      emailjs.init("user_7g2ZM3cRR0bZYBs0MBNwE");
+			//emailjs.send("soyoung_gmail","template_YrtZb95g",Email_Contents)
 			.then(function(response){
 				console.log("Success.status=%d,text=%s",response.status,response.text);
 			},function(err){

@@ -27,6 +27,15 @@ button{
 /* intro */
  #intro {
   background-image : url("images/intro.png");
+  background-repeat: no-repeat;
+ }
+ #open{
+   background-image : url("images/open.jpg");
+   background-repeat: no-repeat;
+   width: 49.55%;
+   height: 100%;
+   position: absolute;
+   margin-left: 960px;
  }
  #open_gif {
   background-image : url("images/PAGE 01-2.gif");
@@ -35,6 +44,8 @@ button{
   height: 100%;
   margin-left: 960px;
   position: absolute;
+  z-index: 7;
+
  }
  #nav {
   background-image : url("images/MENU 01.png");
@@ -44,7 +55,8 @@ button{
   margin-right: 0;
   background-repeat: no-repeat;
   padding: 0,0,0,0;
-  position: absolute;
+  position: fixed;
+  z-index: 5;
  }
  #button1{
    background-repeat: no-repeat;
@@ -53,6 +65,17 @@ button{
    width: 40px;
    height: 40px;
    position: absolute;
+
+ }
+ #button3{
+   background-image : url("images/BUTTON 03.png");
+   background-repeat: no-repeat;
+   margin-left: 1845px;
+   margin-top: 50px;
+   width: 40px;
+   height: 40px;
+   position: fixed;
+   z-index: 5;
  }
  #button2{
    background-image : url("images/MENU 02 .png");
@@ -94,15 +117,18 @@ button{
  /* Page 02*/
  #page02{
    background-image : url("images/PAGE 02.png");
+   background-repeat: no-repeat;
    height :648px;
  }
  #page02-1{
    background-image : url("images/PAGE 02-1.gif");
+   background-repeat: no-repeat;
    height :648px;
    position: absolute;
  }
  #base01 {
    background-image : url("images/PAGE 02-1.png");
+   background-repeat: no-repeat;
    height :648px;
    position: absolute;
  }
@@ -111,15 +137,18 @@ button{
  #page03{
    background-color: #BCBCBC;
    height :648px;
+
  }
  #page03-1{
    background-image : url("images/PAGE 03-1.gif");
+   background-repeat: no-repeat;
    height :648px;
    position: absolute;
    z-index: 1;
  }
  #base02 {
    background-image : url("images/PAGE 03-1.png");
+   background-repeat: no-repeat;
    height :648px;
    position: absolute;
    z-index: 2;
@@ -128,6 +157,7 @@ button{
   /* Page 04 */
   #page04{
     background-image : url("images/PAGE 04.png");
+    background-repeat: no-repeat;
   }
 
   /* Page 05 */
@@ -137,6 +167,7 @@ button{
     max-width: 1920px;
     position : relative;
     overflow: hidden;
+    background-repeat: no-repeat;
   }
 
   /* Page 06 */
@@ -152,6 +183,7 @@ button{
     position: -webkit-sticky;
     position: sticky;
     top: -40px;
+    overflow: hidden;
 
   }
   #page06-2{
@@ -164,7 +196,7 @@ button{
     background-image : url("images/PAGE 06-3.gif");
     background-repeat: no-repeat;
     height :1080px;
-    width: 920px;
+    width: 950px;
     margin-left: 960px;
     position :absolute;
   }
@@ -235,6 +267,7 @@ button{
   /* Page 07 */
   #page07{
     background-image : url("images/PAGE 07.gif");
+    background-repeat: no-repeat;
   }
 
   /* Page 08 */
@@ -264,7 +297,7 @@ button{
   }
   /* Page 09 */
   #page9{
-    background-color: green;
+    background-color: white;
     height: 100%;
   }
   #page09{
@@ -307,6 +340,7 @@ button{
   #page10{
     background-image : url("images/PAGE 10.jpg");
     height :634px;
+    background-repeat: no-repeat;
   }
   /* Page space */
   #page_full{
@@ -318,6 +352,7 @@ button{
     background-color :black;
     height :1980px;
     position: absolute;
+    background-repeat: no-repeat;
 
   }
 
@@ -341,18 +376,20 @@ button{
   }
 
   #show3{
-    background-image : url("images/PAGE-11-3.gif");
+    background-image : url("images/PAGE 11-3.png");
     background-repeat: no-repeat;
     width:100%;
     height :1080px;
     position: absolute;
     top: 0px;
+     border : 0 none;
   }
 
   /* Page 12 */
   #page12{
     background-image : url("images/PAGE 12.jpg");
     height :1080px;
+    background-repeat: no-repeat;
   }
 
   #graph10{
@@ -381,6 +418,7 @@ button{
   background-image : url("images/PAGE 13-1.jpg");
   background-repeat: no-repeat;
   height: : 1080px;
+  overflow: hidden;
 }
 #graph12{
   background-image : url("images/GRAPH 12.jpg");
@@ -404,6 +442,7 @@ button{
 #page14{
   background-image : url("images/PAGE 14-1.jpg");
   background-repeat: no-repeat;
+
   height: : 1080px;
 }
 
@@ -439,7 +478,92 @@ button{
 
 /* Page 15 */
 #page15{
-  background-image : url("images/PAGE 15.jpg");
+  background-image : url("images/PAGE 15.png");
   background-repeat: no-repeat;
   position : absolute;
+}
+
+#logo2{
+  background-image : url("images/LOGO 02.png");
+  background-repeat: no-repeat;
+  position : absolute;
+  width: 139px;
+  height: 57px;
+  margin-left: 139px;
+  margin-top: 57px;
+}
+#footer01{
+  background-image : url("images/FOOTER BUTTON 01.png");
+  background-repeat: no-repeat;
+  position : absolute;
+  width: 229px;
+  height: 22px;
+  margin-left: 150px;
+  margin-top: 207px;
+}
+#footer02{
+  background-image : url("images/FOOTER BUTTON 02.png");
+  background-repeat: no-repeat;
+  position : absolute;
+  width: 294px;
+  height: 22px;
+  margin-left: 150px;
+  margin-top: 246px;
+}
+#footer03{
+  background-image : url("images/FOOTER BUTTON 03.png");
+  background-repeat: no-repeat;
+  position : absolute;
+  width: 245px;
+  height: 24px;
+  margin-left: 150px;
+  margin-top: 284px;
+}
+#footer04{
+  background-image : url("images/FOOTER BUTTON 04.png");
+  background-repeat: no-repeat;
+  position : absolute;
+  width: 91px;
+  height: 17px;
+  margin-left: 150px;
+  margin-top: 325px;
+}
+#soyoung,#sujeong,#yeonkyeong {
+  background-image : url("images/FOOTER BUTTON 05.png");
+  background-repeat: no-repeat;
+  position : absolute;
+  width: 35px;
+  height: 16px;
+}
+
+#sujeong{
+  margin-left: 1067px;
+  margin-top: 303px;
+}
+
+#yeonkyeong{
+  margin-left: 1139px;
+  margin-top: 358px;
+}
+
+#soyoung{
+  margin-left: 1707px;
+  margin-top: 289px;
+}
+
+@-moz-keyframes rotateimg360 /*--for firefox--*/{
+  from {-moz-transform:rotate(0deg);}
+  to{-moz-transform:rotate(360deg);}
+}
+@-webkit-keyframes rotateimg360 /*--for webkit--*/{
+  from{-webkit-transform:rotate(0deg);}
+  to{-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes rotateimgBack /*--for firefox--*/{
+  from {-moz-transform:rotate(360deg);}
+  to{-moz-transform:rotate(0deg);}
+}
+@-webkit-keyframes rotateimgBack /*--for webkit--*/{
+  from{-webkit-transform:rotate(360deg);}
+  to{-webkit-transform:rotate(0deg);}
 }
