@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<!-- Copyright 2020. Soyoung LEE all rights reserved.
+     Email : daianaludice@naver.com -->
+<html>
+	<head>
+		<title>Parallax Scrolling WEB</title>
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"></script>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_7g2ZM3cRR0bZYBs0MBNwE");
+   })();
+
+
+</script>
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+  <body>
+		<!--Intro-->
+		<section id="intro">
+			    <div id="open"></div>
+
+					<button id="button1"></button>
+					<div id="nav">
+						<button id="button2"></button>
+						<p id="menu1"></p>
+						<p id="menu2"></p>
+						<p id="menu3"></p>
+					</div>
+					<button id="button3"></button>
+					<div id="open_gif"></div>
+
+
+		</section>
+		<!-- Page 02 -->
+		<div id="page02">
+			<div id="page02-1"></div>
+			<p id="base01"></p>
+			</div>
+		</div>
+		<!-- Page 03 -->
+		<div id="page03">
+			<div id="page03-1"></div>
+			<p id="base02"></p>
+		</div>
+		<!-- Page 04 -->
+		<div id="page04">
+		</div>
+		<!-- Page 05 -->
+		<div id="page05">
+			<img src="css/images/ICON 01.png" alt="icon01" id="icon1" style="width:44px;margin-left: 269px;margin-top: 351px;position:absolute;"></img>
+			<img src="css/images/ICON 02.png" alt="icon02" id="icon2" style="width:44px;margin-left: 554px;margin-top: 351px;position:absolute;"></img>
+			<img src="css/images/ICON 03.png" alt="icon03" id="icon3" style="width:44px;margin-left: 1023px;margin-top: 351px; position:absolute;"></img>
+			<img src="css/images/ICON 04.png" alt="icon04" id="icon4" style="width:70px;margin-left: 1582px;margin-top: 351px; position:absolute;"></img>
+		</div>
+
+		<!-- Page 06 -->
+		<div id="page6">
+		 <div id="page06-1">
+			 <div id="page06-2"></div>
+			 <div id="page06-4"></div>
+			 <div id="page06-3"></div>
+			 <div id="page06-5">
+				 <div id="graph1"></div>
+				 <div id="graph2"></div>
+				 <div id="graph3"></div>
+				 <div id="graph4"></div>
+				 <div id="graph5"></div>
+			 </div>
+		 </div>
+	  </div>
+		<!-- Page 07 -->
+		<div id="page07">
+		</div>
+				<!-- Page 11 -->
+		<div id="page11">
+			<div id="show1">
+			 <div id="show2"></div>
+			 <div id="show3"></div>
+		  </div>
+		</div>
+		<!-- Page 08 -->
+		<div id="page08-1"></div>
+		<div id="page08"></div>
+		<div id="graph7"></div>
+
+		<div id="page08-2"></div>
+
+
+		<!-- Page 09 -->
+		<div id="page09-2"></div>
+    <div id="page09"></div>
+		<div id="page09-1">
+			<div id="graph8"></div>
+			<div id="graph9"></div>
+		</div>
+		<div id="page9"></div>
+
+
+
+		<!-- Page 10 -->
+		<div id="page10">
+		</div>
+		<!-- Page full -->
+		<div id="page_full">
+		</div>
+		<!-- Page 12 -->
+		<div id="graph10"></div>
+		<div id="graph11"></div>
+		<div id="page12">
+		</div>
+		<!-- Page 13 -->
+		<div id="graph12"></div>
+		<div id="page13">
+			<div id="page13-2"></div>
+		</div>
+		<!-- Page 14 -->
+		<div id="page14">
+			<div id="page14-2"></div>
+			<div id="box1" style="height: 375px;">
+				<input type="text" name="send_content" id="send_text" style="background-color:transparent; width:1150px; height:300px; margin-left: 80px; margin-top: 30px; border:0; text-align: center;"></input>
+			</div>
+      <img src="css/images/SEND.png" alt="icon" class="sends" id="send" style="width:112px;margin-left: 1636px;margin-top: 818px;position:absolute;"></img>
+			</div>
+		</div>
+		<!-- footer -->
+		<div id="page15" style="height: 450px;">
+			<a href="index.html"><div id="logo2"></div></a>
+			<a href="#page04"><div id="footer01"></div></a>
+			<a href="#page15"><div id="footer02"></div></a>
+			<a href="#page_full"><div id="footer03"></div></a>
+			<a href="#page14"><div id="footer04"></div></a>
+			<a href="https://sujeongkr.com/"><div id="sujeong"></div></a>
+			<a href="https://www.behance.net/werqrs200aaee"><div id="yeonkyeong"></div></a>
+			<a href="https://github.com/daianaludice"><div id="soyoung"></div></a>
+		</div>
+		<!-- Scripts -->
+		<script type="text/javascript">
+		$('#send').click(function(){
+			contents = document.getElementById("send_text").value;
+			var Email_Contents ={
+				host : 'GUEST',
+				contents
+			}
+			$('#page14-2').fadeIn();
+			$('#send_text').val(' ').css('text-align','center');
+      emailjs.init("user_7g2ZM3cRR0bZYBs0MBNwE");
+			//emailjs.send("soyoung_gmail","template_YrtZb95g",Email_Contents)
+			.then(function(response){
+				console.log("Success.status=%d,text=%s",response.status,response.text);
+			},function(err){
+				console.log("FAILED.error=",err);
+			}
+			);
+		});
+
+
+		</script>
+			<script src="js/main.js"></script>
+			<script src="js/scroll_event.js"></script>
+  </body>
+  </html>
