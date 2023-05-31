@@ -1,0 +1,569 @@
+
+/* Copyright 2020. Soyoung LEE all rights reserved.
+     Email : daianaludice@naver.com */
+
+html, body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+section,div,p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+  height :100%;
+}
+
+button{
+  outline : none;
+  border: 0;
+  background-color: transparent;
+}
+/* intro */
+ #intro {
+  background-image : url("images/intro.png");
+  background-repeat: no-repeat;
+ }
+ #open{
+   background-image : url("images/open.jpg");
+   background-repeat: no-repeat;
+   width: 49.55%;
+   height: 100%;
+   position: absolute;
+   margin-left: 960px;
+ }
+ #open_gif {
+  background-image : url("images/PAGE 01-2.gif");
+  background-repeat: no-repeat;
+  width: 49.55%;
+  height: 100%;
+  margin-left: 960px;
+  position: absolute;
+  z-index: 7;
+
+ }
+ #nav {
+  background-image : url("images/MENU 01.png");
+  width: 690px;
+  height: 690px;
+  margin-left: 1213px;
+  margin-right: 0;
+  background-repeat: no-repeat;
+  padding: 0,0,0,0;
+  position: fixed;
+  z-index: 5;
+ }
+ #button1{
+   background-repeat: no-repeat;
+   margin-left: 1845px;
+   margin-top: 50px;
+   width: 40px;
+   height: 40px;
+   position: absolute;
+
+ }
+ #button3{
+   background-image : url("images/BUTTON 03.png");
+   background-repeat: no-repeat;
+   margin-left: 1845px;
+   margin-top: 50px;
+   width: 40px;
+   height: 40px;
+   position: fixed;
+   z-index: 5;
+ }
+ #button2{
+   background-image : url("images/MENU 02 .png");
+   background-repeat: no-repeat;
+   margin-left: 612px;
+   margin-top: 48px;
+   width: 34px;
+   height: 34px;
+   position: absolute;
+ }
+ #menu1{
+   background-image : url("images/MENU 03.png");
+   background-repeat: no-repeat;
+   margin-top: 149px;
+   margin-left: 564px;
+   width: 82px;
+   height: 23px;
+   position: absolute;
+ }
+ #menu2{
+   background-image : url("images/MENU 04.png");
+   background-repeat: no-repeat;
+   margin-top: 239px;
+   margin-left: 556px;
+   width: 86px;
+   height: 25px;
+   position: absolute;
+ }
+ #menu3{
+   background-image : url("images/MENU 05.png");
+   background-repeat: no-repeat;
+   margin-top: 331px;
+   margin-left: 498px;
+   width: 148px;
+   height: 24px;
+   position: absolute;
+ }
+
+ /* Page 02*/
+ #page02{
+   background-image : url("images/PAGE 02.png");
+   background-repeat: no-repeat;
+   height :648px;
+ }
+ #page02-1{
+   background-image : url("images/PAGE 02-1.gif");
+   background-repeat: no-repeat;
+   height :648px;
+   position: absolute;
+ }
+ #base01 {
+   background-image : url("images/PAGE 02-1.png");
+   background-repeat: no-repeat;
+   height :648px;
+   position: absolute;
+ }
+
+ /* Page 03 */
+ #page03{
+   background-color: #BCBCBC;
+   height :648px;
+
+ }
+ #page03-1{
+   background-image : url("images/PAGE 03-1.gif");
+   background-repeat: no-repeat;
+   height :648px;
+   position: absolute;
+   z-index: 1;
+ }
+ #base02 {
+   background-image : url("images/PAGE 03-1.png");
+   background-repeat: no-repeat;
+   height :648px;
+   position: absolute;
+   z-index: 2;
+ }
+
+  /* Page 04 */
+  #page04{
+    background-image : url("images/PAGE 04.png");
+    background-repeat: no-repeat;
+  }
+
+  /* Page 05 */
+  #page05{
+    background-image : url("images/PAGE 05.png");
+    height :634px;
+    max-width: 1920px;
+    position : relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+  }
+
+  /* Page 06 */
+  #page6{
+    background-color: white;
+    height:2700px;
+  }
+  #page06-1{
+    background-image : url("images/PAGE 06-1.jpg");
+    background-repeat: no-repeat;
+    width:100%;
+    height :1080px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -40px;
+    overflow: hidden;
+
+  }
+  #page06-2{
+    background-image : url("images/PAGE 06-2.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+  }
+  #page06-3{
+    background-image : url("images/PAGE 06-3.gif");
+    background-repeat: no-repeat;
+    height :1080px;
+    width: 950px;
+    margin-left: 960px;
+    position :absolute;
+  }
+  #page06-4{
+    background-image : url("images/PAGE 06-4.png");
+    background-repeat: no-repeat;
+    height: 100%;
+    position: absolute;
+  }
+  #page06-5{
+    background-image : url("images/PAGE 06-3.png");
+    background-repeat: no-repeat;
+    height :1080px;
+    width: 920px;
+    margin-left: 960px;
+    position :absolute;
+  }
+  #graph1{
+    background-image : url("images/GRAPH 01.jpg");
+    height: 664px;
+    background-repeat: no-repeat;
+    margin-left: 245px;
+    margin-top: 269px;
+    position: absolute;
+    width: 118px;
+  }
+  #graph2{
+    background-image : url("images/GRAPH 02.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    margin-left: 365px;
+    margin-top: 269px;
+    height: 664px;
+    width: 118px;
+    position: absolute;
+  }
+  #graph3{
+    background-image : url("images/GRAPH 03.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    margin-left: 485px;
+    margin-top: 269px;
+    height: 664px;
+    width: 118px;
+    position: absolute;
+  }
+  #graph4{
+    background-image : url("images/GRAPH 04.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    margin-left: 485px;
+    margin-top: 407px;
+    height: 664px;
+    width: 118px;
+    position: absolute;
+  }
+  #graph5{
+    background-image : url("images/GRAPH 05.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    margin-left: 605px;
+    margin-top: 269px;
+    height: 664px;
+    width: 118px;
+    position: absolute;
+  }
+
+  /* Page 07 */
+  #page07{
+    background-image : url("images/PAGE 07.gif");
+    background-repeat: no-repeat;
+  }
+
+  /* Page 08 */
+  #page08{
+    background-image : url("images/PAGE 08-1.png");
+    background-repeat: no-repeat;
+        position: absolute;
+  }
+  #page08-1{
+    background-image : url("images/PAGE 08-1.gif");
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+  #page08-2{
+    background-image : url("images/PAGE 08.jpg");
+    background-repeat: no-repeat;
+
+  }
+  #graph7{
+    background-image : url("images/GRAPH 07.jpg");
+    background-repeat: no-repeat;
+    margin-top: 288px;
+    margin-left: 1352px;
+    height: 580px;
+    width: 200px;
+    position: absolute;
+  }
+  /* Page 09 */
+  #page9{
+    background-color: white;
+    height: 100%;
+  }
+  #page09{
+    background-image : url("images/PAGE 09-2.gif");
+    background-repeat: no-repeat;
+    position: absolute;
+
+  }
+  #page09-1{
+    background-image : url("images/PAGE 09-3.png");
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+   #page09-2{
+    background-image : url("images/PAGE 09.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+  }
+
+  #graph8{
+    background-image : url("images/GRAPH 08.jpg");
+    background-repeat: no-repeat;
+    margin-top: 288px;
+    margin-left: 271px;
+    height: 580px;
+    width: 200px;
+    position: absolute;
+  }
+
+  #graph9{
+    background-image : url("images/GRAPH 09.jpg");
+    background-repeat: no-repeat;
+    margin-top: 288px;
+    margin-left: 489px;
+    height: 580px;
+    width: 200px;
+    position: absolute;
+  }
+  /* Page 10 */
+  #page10{
+    background-image : url("images/PAGE 10.jpg");
+    height :634px;
+    background-repeat: no-repeat;
+  }
+  /* Page space */
+  #page_full{
+    background-color :black;
+    height :1345px;
+  }
+  /* Page 11 */
+  #page11{
+    background-color :black;
+    height :1980px;
+    position: absolute;
+    background-repeat: no-repeat;
+
+  }
+
+  #show1{
+    background-image : url("images/PAGE 11-1.jpg");
+    background-repeat: no-repeat;
+    width:100%;
+    height :1080px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+  }
+
+  #show2{
+    background-image : url("images/PAGE 11-2.png");
+    background-repeat: no-repeat;
+    width:100%;
+    height :1080px;
+    top : 0px;
+  }
+
+  #show3{
+    background-image : url("images/PAGE 11-3.png");
+    background-repeat: no-repeat;
+    width:100%;
+    height :1080px;
+    position: absolute;
+    top: 0px;
+     border : 0 none;
+  }
+
+  /* Page 12 */
+  #page12{
+    background-image : url("images/PAGE 12.jpg");
+    height :1080px;
+    background-repeat: no-repeat;
+  }
+
+  #graph10{
+    background-image : url("images/GRAPH 10.jpg");
+    background-repeat: no-repeat;
+    margin-top: 288px;
+    margin-left: 1222px;
+    height: 600px;
+    width: 200px;
+    position: absolute;
+  }
+
+  #graph11{
+    background-image : url("images/GRAPH 11.jpg");
+    background-repeat: no-repeat;
+    margin-top: 288px;
+    margin-left: 1444px;
+    height: 600px;
+    width: 200px;
+    position: absolute;
+  }
+
+
+/* Page 13 */
+#page13{
+  background-image : url("images/PAGE 13-1.jpg");
+  background-repeat: no-repeat;
+  height: : 1080px;
+  overflow: hidden;
+}
+#graph12{
+  background-image : url("images/GRAPH 12.jpg");
+  background-repeat: no-repeat;
+  margin-top: 288px;
+  margin-left: 382px;
+  height: 580px;
+  width: 200px;
+  position: absolute;
+}
+#page13-2{
+  background-image : url("images/PAGE-13-2.gif");
+  background-repeat: no-repeat;
+  position : absolute;
+  width:943px;
+  height :459px;
+  margin-left: 960px;
+}
+
+/* Page 14 */
+#page14{
+  background-image : url("images/PAGE 14-1.jpg");
+  background-repeat: no-repeat;
+
+  height: : 1080px;
+}
+
+#page14-2{
+  background-image : url("images/PAGE 14-2.png");
+  background-repeat: no-repeat;
+  position : absolute;
+  height: : 1080px;
+}
+
+#box1{
+  background-image : url("images/WRITING BOX.png");
+  background-repeat: no-repeat;
+  position : absolute;
+  width: 1350px;
+  margin-left: 272px;
+  margin-top: 481px;
+}
+
+#send_text{
+  background-color:transparent;
+  width:1150px;
+  height:300px;
+  margin-left: 80px;
+  margin-top: 30px;
+  border:0;
+  font-color: #2d0f42;
+  font-size: 28px;
+}
+#send_text:focus{
+  outline: none;
+}
+
+/* Page 15 */
+#page15{
+  background-image : url("images/PAGE 15.png");
+  background-repeat: no-repeat;
+  position : absolute;
+}
+
+#logo2{
+  background-image : url("images/LOGO 02.png");
+  background-repeat: no-repeat;
+  position : absolute;
+  width: 139px;
+  height: 57px;
+  margin-left: 139px;
+  margin-top: 57px;
+}
+#footer01{
+  background-image : url("images/FOOTER BUTTON 01.png");
+  background-repeat: no-repeat;
+  position : absolute;
+  width: 229px;
+  height: 22px;
+  margin-left: 150px;
+  margin-top: 207px;
+}
+#footer02{
+  background-image : url("images/FOOTER BUTTON 02.png");
+  background-repeat: no-repeat;
+  position : absolute;
+  width: 294px;
+  height: 22px;
+  margin-left: 150px;
+  margin-top: 246px;
+}
+#footer03{
+  background-image : url("images/FOOTER BUTTON 03.png");
+  background-repeat: no-repeat;
+  position : absolute;
+  width: 245px;
+  height: 24px;
+  margin-left: 150px;
+  margin-top: 284px;
+}
+#footer04{
+  background-image : url("images/FOOTER BUTTON 04.png");
+  background-repeat: no-repeat;
+  position : absolute;
+  width: 91px;
+  height: 17px;
+  margin-left: 150px;
+  margin-top: 325px;
+}
+#soyoung,#sujeong,#yeonkyeong {
+  background-image : url("images/FOOTER BUTTON 05.png");
+  background-repeat: no-repeat;
+  position : absolute;
+  width: 35px;
+  height: 16px;
+}
+
+#sujeong{
+  margin-left: 1067px;
+  margin-top: 303px;
+}
+
+#yeonkyeong{
+  margin-left: 1139px;
+  margin-top: 358px;
+}
+
+#soyoung{
+  margin-left: 1707px;
+  margin-top: 289px;
+}
+
+@-moz-keyframes rotateimg360 /*--for firefox--*/{
+  from {-moz-transform:rotate(0deg);}
+  to{-moz-transform:rotate(360deg);}
+}
+@-webkit-keyframes rotateimg360 /*--for webkit--*/{
+  from{-webkit-transform:rotate(0deg);}
+  to{-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes rotateimgBack /*--for firefox--*/{
+  from {-moz-transform:rotate(360deg);}
+  to{-moz-transform:rotate(0deg);}
+}
+@-webkit-keyframes rotateimgBack /*--for webkit--*/{
+  from{-webkit-transform:rotate(360deg);}
+  to{-webkit-transform:rotate(0deg);}
+}
